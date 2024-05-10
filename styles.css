@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+em {
+  color: rgb(224, 93, 185);
+}
+/* .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+/* popupp */
+.popup-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: none;
+  width: 40%;
+  height: 30%;
+  background: rgb(255, 255, 255);
+  border: solid 1px black;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.p-pop {
+  font-size: 20px;
+  color: gold;
+  margin-left: 2%;
+}
+input {
+  padding: 15px;
+  color: blue;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  border: none;
+  border-bottom: solid 2px blue;
+}
+.btn-pop {
+  color: aliceblue;
+  background: red;
+  margin: 5px;
+  padding: 8px;
+}
+.header-pop {
+  /* margin-bottom: 20px;
+  
+  justify-content: space-between; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modale {
+  text-align: center;
+  padding: 5px;
+}
+.modale-btn {
+  padding: 10px;
+  color: white;
+  width: 10%;
+  background-color: green;
+}
+/* popuup end */
+header {
+  background-color: aqua;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  /* overflow: hidden; */
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  font-size: 25px;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 400px;
+  height: 500p;
+}
+ul li {
+  margin-bottom: 7px;
+}
+/* 
+section 1 */
+
+.container {
+  margin-top: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(228, 228, 233);
+  padding: 10px;
+}
+.livre1 {
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  width: 300px;
+  background: white;
+  border-radius: 8px;
+  margin: 5px;
+  /* overflow: hidden; */
+  text-align: center;
+  padding: 10px;
+}
+.liveh2 {
+  color: rgb(85, 161, 161);
+}
+.livep2 {
+  text-align: center;
+}
+.div1 {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  border-radius: 8px;
+  transition: opacity 0.4s ease-out;
+}
+.div1 :hover {
+  transition: opacity 0.4s ease-out;
+}
+.icon {
+  padding: 10px;
+}
+i {
+  color: red;
+  margin-left: 5px;
+  cursor: pointer;
+}
+#lu {
+  color: green;
+  cursor: pointer;
+}
+li {
+  background: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-sizing: border-box;
+  padding: 10px;
+}
+strong {
+  color: blue;
+}
+.titre {
+  color: blue;
+}
+.auteur {
+  color: rgb(224, 93, 185);
+}
+.mark {
+  text-decoration: line-through;
+}
