@@ -6,9 +6,9 @@
 em {
   color: rgb(224, 93, 185);
 }
-/* .overlay {
+.overlay {
   background-color: rgba(0, 0, 0, 0.5);
-} */
+}
 /* popupp */
 .popup-overlay {
   position: fixed;
@@ -59,9 +59,10 @@ input {
   padding: 5px;
 }
 .modale-btn {
-  padding: 10px;
+  padding: 5px;
   color: white;
   width: 10%;
+  border-radius: 30px;
   background-color: green;
 }
 /* popuup end */
@@ -80,17 +81,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-ul {
-  font-size: 25px;
-  list-style: none;
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 400px;
-  height: 500p;
-}
-ul li {
-  margin-bottom: 7px;
-}
+
 /* 
 section 1 */
 
@@ -142,24 +133,56 @@ i {
   color: green;
   cursor: pointer;
 }
-li {
-  background: aquamarine;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  box-sizing: border-box;
-  padding: 10px;
-}
-strong {
-  color: blue;
-}
+
 .titre {
   color: blue;
 }
 .auteur {
   color: rgb(224, 93, 185);
 }
-.mark {
-  text-decoration: line-through;
+
+.div_1 {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 5px;
+  background: aquamarine;
+  width: auto;
+}
+.div_2 {
+  background: rgb(253, 253, 253);
+  padding: 5px;
+  width: auto;
+  margin-bottom: 3%;
+  display: flex;
+}
+.ajouter-new-listes {
+  align-items: center;
+  width: auto;
+  display: inline-block;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  margin-left: 15px;
+  /* border: 1px solid black; */
+}
+.sec {
+  flex-direction: column;
+}
+.ButtonLu {
+  padding: 5px;
+  background: greenyellow;
+}
+.button1 {
+  padding: 5px;
+  background: #e84342;
+  margin-left: 4%;
+}
+main {
+  background: #a4b0bd;
+}
+h4 {
+  color: rgb(190, 192, 65);
 }
